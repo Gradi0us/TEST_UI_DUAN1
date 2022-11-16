@@ -15,7 +15,7 @@ public class Search_Main extends AppCompatActivity {
         findViewById(R.id.tomainsrc).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Search_Main.this,Main_screen.class);
+                Intent intent = new Intent(Search_Main.this,Mainscreen.class);
                 startActivity(intent);
             }
         });

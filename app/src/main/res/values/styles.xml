@@ -10,6 +10,14 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+    <style name="parentt">
+        <item name="android:layout_width">270dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="parenttt">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 
     <style name="loginParent" parent="parent">
         <item name="android:layout_height">match_parent</item>
@@ -26,7 +34,7 @@
     </style>
     <style name="headersearchh" parent="parent">
         <item name="android:textSize">@dimen/headerTextSize</item>
-        <item name="android:textAlignment"></item>
+        <item name="android:textAlignment">center</item>
         <item name="android:textColor">@color/whiteTextColor</item>
         <item name="android:textStyle">bold</item>
 
